@@ -1,3 +1,8 @@
+<script>
+    import Title from "$lib/title.svelte";
+</script>
+
+<Title title="Ninja Gaming Reviews" />
 <div class="about">
     <h2>about us</h2>
     <p>
@@ -10,6 +15,8 @@
         mollit anim id est laborum
     </p>
 </div>
+<a href="/">Home</a>
+<a href="/guides">View Guides</a>
 
 <style>
     .about {
