@@ -1,4 +1,4 @@
-<script>
+<script context="module">
 </script>
 
 <div class="guides">
