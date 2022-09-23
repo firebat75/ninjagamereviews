@@ -1,8 +1,6 @@
 <script>
-    import Title from "$lib/title.svelte";
 </script>
 
-<Title title="Ninja Gaming Guides" />
 <div class="guides">
     <h2>Guides</h2>
     <p>
@@ -14,9 +12,11 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum
     </p>
+    <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </div>
 </div>
-<a href="/">Home</a>
-<a href="/about">About</a>
 
 <style>
     .guides {
